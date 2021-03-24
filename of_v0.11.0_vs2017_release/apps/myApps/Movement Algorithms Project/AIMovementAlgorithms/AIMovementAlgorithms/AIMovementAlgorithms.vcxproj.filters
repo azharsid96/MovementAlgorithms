@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxColorPicker.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxInputField.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Boid.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicMotion.cpp">
+      <Filter>src\AI-Kinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicAlign.cpp">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicBlendedBehavior.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicFace.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicFlocking.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicArrive.cpp">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicEvade.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicFlee.cpp">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicLookWhereYouAreGoing.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicPursue.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicSeek.cpp">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicSeparation.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicVelocityMatch.cpp">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DynamicWander.cpp">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{8b794026-d088-4fb3-aece-7da3f10fc276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{3b83df4e-2ec4-474d-aed5-78627024de55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{e3b17525-633b-427a-a731-abdbe771d3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects">
+      <UniqueIdentifier>{46f6ce51-57d1-42f3-8792-40492e6424e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AI-Dynamic">
+      <UniqueIdentifier>{f6f37fd7-a901-4196-871c-b54ee58b81b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AI-Kinematic">
+      <UniqueIdentifier>{ce33ba13-bc0d-47a1-9956-6a2ec7599100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AI-Dynamic\basic">
+      <UniqueIdentifier>{8b3c89d1-548d-473c-b9f4-efc04f19e51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AI-Dynamic\advanced">
+      <UniqueIdentifier>{e0b35500-3c3f-45f4-8687-97ea6e4a825e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxColorPicker.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxGuiUtils.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxInputField.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Boid.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\types.h">
+      <Filter>src\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BasicMotion.h">
+      <Filter>src\AI-Kinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicBehavior.h">
+      <Filter>src\AI-Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicAlign.h">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicBlendedBehavior.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicFace.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicFlocking.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicArrive.h">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicEvade.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicFlee.h">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicLookWhereYouAreGoing.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicPursue.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicSeek.h">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicSeparation.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicVelocityMatch.h">
+      <Filter>src\AI-Dynamic\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DynamicWander.h">
+      <Filter>src\AI-Dynamic\advanced</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
